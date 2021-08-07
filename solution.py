@@ -9,7 +9,7 @@ import sys
 def avg(*num):
   if len(num)==0:
     return None
-  sum_num += i
+  sum_num = 0
   for i in nums:
     sum_num += i
     ret = float(sum_num)/len(num)
